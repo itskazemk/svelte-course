@@ -1,6 +1,7 @@
 <script>
 	import bookCover from '$assets/images/book_cover.png';
 	import phoneCover from '$assets/images/phone_cover.png';
+	import Button from '$lib/components/Button.svelte';
 </script>
 
 <section class="hero">
@@ -15,11 +16,12 @@
 		<h1>one</h1>
 		<h1>two</h1>
 		<h1 class="mb-m">three</h1>
-		<p class="light-grey">
+		<p class="light-grey mb-l">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Error libero odit perspiciatis nihil
 			mollitia nulla harum veniam omnis voluptatum? Unde minus natus veritatis sint neque
 			repellendus doloremque eos possimus provident.
 		</p>
+		<Button>Purchase E-book for $10</Button>
 	</div>
 </section>
 
