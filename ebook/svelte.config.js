@@ -12,6 +12,9 @@ const config = {
 			"$assets":"src/assets"
 		}
 
+	},
+	compilerOptions:{
+		runes:true
 	}
 
 };
